@@ -1,0 +1,63 @@
+/*colors, font*/
+body {
+    background-color: #121212;
+    color: #F9F6EE;
+    font-family: 'Courier New', Courier, monospace
+  }
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+/*makes gap between boxes, sets their positions*/
+.scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/*increase vertical gap between bullets*/
+li {
+    margin: 4px 0;
+}
+
+ul {
+    padding:0;
+    margin: 0;
+}
+/*horizontal bullet points, gaps*/
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+/*centers the ABOUT with its box*/
+.ABOUT {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    padding-left: 2%;
+}
+
+/*centers the PROJECTS with its box*/
+.PROJECTS {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 40%;
+    padding-right: 2%;
+    margin-left: 8px;
+}
+
+/*Spaces the About and Project Headers + their boxes*/
+.main {
+    display: flex;
+    justify-content: flex-start; /*change this +widths to mess around with positioning*/
+}
